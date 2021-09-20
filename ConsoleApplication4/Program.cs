@@ -15,37 +15,42 @@ namespace Printhalf
                 for (j = 1; j <= i; ++j)
                 {
 
-
-
-
-
-                    Console.Write("* ");
-
-                }
-
-                Console.WriteLine("\n");
-            }
-   
-
-
-
-            for (i = rows; i >= 1; i--)
-            {
-                for (j = 1; j <= i; j++)
-                {
-
-
-
                     Console.Write("* ");
 
                 }
 
                 Console.WriteLine();
             }
+            Console.WriteLine();
 
+            for (i = rows; i >= 1; i--)
+            {
+                for (j = 1; j <= i; j++)
+                {
 
+                    Console.Write("* ");
+                }
+
+                Console.WriteLine();
+            }
+            Console.WriteLine();
+            
+            
+            for (i = rows; i >= 1; i--)
+            {
+            
+                for (j = 1; j <= i; ++j)
+                { 
+                    Console.Write("* ");
+
+                }
+
+                Console.WriteLine();
+            }
         }
-    }
-}
+        
+        }
+         }
+
     
 
